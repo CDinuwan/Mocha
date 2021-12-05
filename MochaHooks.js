@@ -15,4 +15,8 @@ describe('Mocha Hooks',function(){
     before('Execute After Each Tests',function(){
         console.log('Execute After Each Test');
     });
+
+    it('Mocha Hook Tests',function(){
+        console.log('Mocha - This is a Test for Mocha Hooks')
+    });
 });
